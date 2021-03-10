@@ -10,33 +10,12 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Uber Move Text", sans-serif;
+  font-family: sans-serif;
 }
 
 .container {
   width: calc(100% - 120px);
   margin: auto;
-}
-
-footer {
-  margin-top: 5rem;
-  border-top: 1px solid black;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-}
-
-footer h2 {
-  font-weight: 300;
-}
-
-footer h2 span {
-  color: #06c167;
-  font-weight: 600;
 }
 
 header .logo h1 {
@@ -172,34 +151,10 @@ header .searchBar {
   opacity: 1;
 }
 
-.listings .circle {
-  width: 40px;
-  height: 40px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  border-radius: 50%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .listings .listings-grid {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  overflow: hidden;
-  overflow-x: scroll;
-  -ms-scroll-snap-type: x mandatory;
-      scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-}
-
-.listings .listings-grid::-webkit-scrollbar {
-  display: none;
 }
 
 .listings .listings-grid .listings-col {
@@ -215,15 +170,6 @@ header .searchBar {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-flex: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
-  scroll-snap-align: start;
-  margin-left: 25px;
 }
 
 .listings .listings-grid .listings-grid-element {
@@ -277,5 +223,20 @@ header .searchBar {
   background: #eeeeee;
   font-size: 1rem;
   color: black;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-radius: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=main.css.map */
