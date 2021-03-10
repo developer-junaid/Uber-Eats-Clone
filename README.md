@@ -5,6 +5,7 @@ This is a Clone of Uber Eats Website Landing Page, built using HTML, CSS, SCSS a
 
 ## Landing Page
 <img src='/projectImages/homepage.png' />
+<img src='/projectImages/footer.png' />
 
 
 ## Tech Stack
